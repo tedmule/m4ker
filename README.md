@@ -1,6 +1,11 @@
 # m4ker
 
 # Common G-code
+```
+# 手动挤出耗材
+G91
+G1 E50 F60
+```
 
 
 # Extruder rotation_distance
@@ -19,6 +24,5 @@ requested_extrude_distance: 50mm
 
 
 actual_extrude_distance = <initial_mark_distance> - <subsequent_mark_distance>
+85-40 = 45
 
-G91
-G1 E50 F60
