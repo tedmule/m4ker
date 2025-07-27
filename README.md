@@ -26,3 +26,9 @@ requested_extrude_distance: 50mm
 actual_extrude_distance = <initial_mark_distance> - <subsequent_mark_distance>
 85-40 = 45
 
+
+# Bed leveling
+[20, 20]: check,
+[130, 20]: 
+[20, 130]: 
+[130, 130]: 
